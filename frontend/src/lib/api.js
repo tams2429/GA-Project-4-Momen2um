@@ -70,7 +70,7 @@ export const deleteTodo = (id) => {
 
 //* Weather API requests
 export const getWeatherByCity = (cityName) => {
-  return axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${openweatherApiAccessToken}`)
+  return axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${openweatherApiAccessToken}`)
 }
 
 //* News API requests
