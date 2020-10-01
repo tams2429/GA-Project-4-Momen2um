@@ -1,0 +1,62 @@
+[
+{
+  "model": "jwt_auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$iTmpATgUWkkY$YLWbKAuq2X+/HY6CO0fLcypoY8U/QlGZqoBEkKOUC2w=",
+    "last_login": "2020-09-12T10:58:01.169Z",
+    "is_superuser": true,
+    "username": "admin",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-09-12T10:57:36.612Z",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@ga",
+    "profile_image": "",
+    "groups": [],
+    "user_permissions": [],
+    "workouts": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$uq7RZUeOxpMJ$kZW67R0rdosgJCjffYB2HZ72aR21FzuDBPiT1+RwDcw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Jacky",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-09-12T11:02:44Z",
+    "first_name": "Jacky",
+    "last_name": "'Rush Hour' Chan",
+    "email": "Jacky@email.com",
+    "profile_image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/8/13/1407926532669/Jackie-Chan-014.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=ead16d24eee8de54953b942981652b44",
+    "groups": [],
+    "user_permissions": [],
+    "workouts": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$aRaUiWCUUxgz$badKOxljT7s24azPJyoibwmqtfZCoZ9uyGt6j9kA9gM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Arnie",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-09-16T22:43:31.997Z",
+    "first_name": "Arnie",
+    "last_name": "'The Terminator' Schwarzenegger",
+    "email": "Arnie@email.com",
+    "profile_image": "https://hips.hearstapps.com/esquireuk.cdnds.net/16/16/1461240265-arnold-schwarzenegger-2.jpg",
+    "groups": [],
+    "user_permissions": [],
+    "workouts": []
+  }
+}
+]

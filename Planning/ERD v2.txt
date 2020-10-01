@@ -1,0 +1,36 @@
+Users
+-----
+id PK int
+username string
+email string
+password string
+-----
+
+ToDoItems
+-----
+id PK int
+text string
+type string
+created_at string
+user_id FK >- Users.id int
+-----
+
+
+Tabata_Workouts
+-----
+id PK int
+user_id FK >- Users.id int
+-----
+
+Exercises
+-----
+id PK int
+exercise_name string
+body_part string
+description string
+tips string
+image string
+video string
+workout_id FK >- Tabata_Workouts.id int
+user_id FK >- Users.id int
+-----

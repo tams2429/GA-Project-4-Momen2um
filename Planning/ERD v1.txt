@@ -1,0 +1,37 @@
+Users
+-----
+id PK int
+username string
+email string
+password string
+-----
+
+ToDoItems
+-----
+id PK int
+text string
+created_at string
+user_id FK >- Users.id int
+-----
+
+
+Workouts
+-----
+id PK int
+body_part string
+difficulty string
+user_id FK >- Users.id int
+-----
+
+Exercises
+-----
+id PK int
+exercise_name string
+body_part string
+description string
+tips string
+image string
+video string
+workout_id FK >- Workouts.id int
+user_id FK >- Users.id int
+-----

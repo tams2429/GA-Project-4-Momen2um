@@ -1,0 +1,227 @@
+@import '~bulma/bulma.sass';
+@import '~antd/dist/antd.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Poppins&family=Syncopate&family=Syne&display=swap');
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+//* App styles
+.layoutContainer {
+  display: flex;
+  flex-direction: row;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  color: white;
+  .topRow {
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 15px;
+    .topLHS {
+      display: flex;
+      flex-direction: column;
+      .weatherInfo {
+        display: flex;
+        color: white;
+        align-items: center;
+        .title {
+          color: white;
+          font-size: 27px;
+          font-weight: 300;
+        }
+      }
+    }
+    .topRHS {
+      display: flex;
+      flex-direction: column;
+      padding-top: 25px;
+      .admin {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        div {
+          margin-left: 15px;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+  .middleRow {
+    display: flex;
+    flex: 9;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    .middleTop {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+      padding: 0 10px;
+      .middleTopMain {
+        max-width: 50%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+//* Register, Login styles
+body {
+  font-family: 'Syne', sans-serif;
+}
+form {
+  text-align: left;
+}
+.passwordField {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .visibleEyeIcon {
+    margin: 10px;
+  }
+}
+.shake {
+  animation: shake 0.2s ease-in-out 0s 2;
+}
+@keyframes shake {
+  0% { margin-left: 0rem; }
+  25% { margin-left: 0.5rem; }
+  75% { margin-left: -0.5rem; }
+  100% { margin-left: 0rem; }
+}
+li {
+  list-style-type: none;
+  padding: 0.4rem;
+}
+
+//*Countdown styles
+.breakCountdown, .filler{
+  visibility: hidden;
+  line-height: 0.5;
+}
+.countdownContainer {
+  text-align: center;
+}
+.ant-statistic-title {
+  font-size: 90px;
+  color: white;
+}
+.ant-statistic-content {
+  font-size: 60px;
+  color: white;
+}
+
+//* To do list styles
+.unchecked {
+  text-decoration: none;
+}
+.checked {
+  text-decoration: line-through;
+  color: lightgray;
+}
+.toDoItems {
+  display: flex;
+  justify-content: space-between;
+}
+.addTodosInput {
+  width: 90%;
+}
+
+//* Profile page styles
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .profileImage {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+  }
+  .profileName {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .profileEmail {
+    font-size: 18px;
+    font-style: italic;
+  }
+}
+
+//* EditProfileWorkout page styles
+.settingsIcon {
+  width: 20px;
+  height: 20px;
+}
+
+//* Welcome page styles
+.welcomeContainer {
+  overflow-wrap: break-word;
+}
+.welcomeMessage {
+  font-size: 48px;
+  color: white;
+}
+.welcomeQuote {
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+}
+
+//* Weather page styles
+.weatherPlaceholder {
+  color: white;
+}
+.weatherInfo {
+  display: flex;
+  color: white;
+  .weatherText {
+    display: flex;
+    flex-direction: column;
+    .weatherTitles {
+      display: flex;
+    }
+  }
+}
+
+//* VideoPlayer page styles
+.videoPlayerPlaceholder {
+  color: white;
+}
+
+//* News page styles
+.ant-popover-title {
+  font-size: 32px;
+}
+.news {
+  height: 700px;
+}
+.newsArticle {
+  overflow-wrap: break-word;
+  max-width: 300px;
+  margin-bottom: 30px;
+  .newsArticleTitle {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .newsArticleDate {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .newsArticleDescription {
+    font-size: 12px;
+  }
+  .newsArticleLink {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}

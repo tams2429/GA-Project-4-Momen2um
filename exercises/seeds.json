@@ -1,0 +1,145 @@
+[
+{
+  "model": "exercises.exercise",
+  "pk": 1,
+  "fields": {
+    "name": "Lunges (Unweighted)",
+    "body_part": "Legs",
+    "description": "Take a stride forwards and bend both knees until they are at 90°, then push back up.",
+    "image": "https://i.pinimg.com/originals/b8/d5/83/b8d58357b3f86b04673caa8251dc34e1.png",
+    "video": "https://www.youtube.com/watch?v=wrwwXE_x-pQ&ab_channel=MindBodySoul"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 2,
+  "fields": {
+    "name": "Squats",
+    "body_part": "Legs",
+    "description": "Lower until your thighs are parallel to the floor.",
+    "image": "https://qph.fs.quoracdn.net/main-qimg-05ac23702909245494e99487a5b0b8d8-c",
+    "video": "https://www.youtube.com/watch?v=aclHkVaku9U&ab_channel=Bowflex"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 3,
+  "fields": {
+    "name": "Press Ups",
+    "body_part": "Chest",
+    "description": "Lie prone on floor with hands slightly wider than shoulder width. Raise body up off floor by extending arms with body straight. Keeping body straight, lower body to floor by bending arms. Push body up until arms are extended. Repeat.",
+    "image": "https://qph.fs.quoracdn.net/main-qimg-5bd1ad4b62cdf415540d8fdd1924cb03.webp",
+    "video": "https://www.youtube.com/watch?v=IODxDxX7oi4&ab_channel=Calisthenicmovement"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 4,
+  "fields": {
+    "name": "Shoulder Tap Push Ups",
+    "body_part": "Chest",
+    "description": "Lie prone on floor with hands slightly wider than shoulder width. Raise body up off floor to plank position by extending arms with body straight.Lower body to floor. Push body upward by extending arms. Rapidly tap shoulder with opposite hand and place it back on floor. Continue and repeat.",
+    "image": "https://weighttraining.guide/wp-content/uploads/2017/08/shoulder-tap-push-up.png",
+    "video": "https://www.youtube.com/watch?v=wcKyqAMqueQ&ab_channel=Bodybuilding.com"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 5,
+  "fields": {
+    "name": "Close Grip Push Ups",
+    "body_part": "Arms",
+    "description": "Lie prone on floor with hands under shoulders or slightly narrower. Position body up off floor with extended arms and body straight. Keeping body straight, lower body to floor by bending arms. Push body up until arms are extended. Repeat.",
+    "image": "https://weighttraining.guide/wp-content/uploads/2016/11/close-grip-push-up.png",
+    "video": "https://www.youtube.com/watch?v=IcWPQo1i0k4&ab_channel=Howcast"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 6,
+  "fields": {
+    "name": "Bench Dip",
+    "body_part": "Arms",
+    "description": "Sit on inside of one of two benches placed parallel, slightly less than leg's length away. Place hands on edge of bench, straighten arms, slide rear end off of bench, and position heels on adjacent bench with legs straight. Lower body by bending arms until slight stretch is felt in chest or shoulder, or rear end touches floor. Raise body and repeat.",
+    "image": "https://cdn-0.weighttraining.guide/wp-content/uploads/2016/10/bench-dip-990x484.png",
+    "video": "https://www.youtube.com/watch?v=0326dy_-CzM&ab_channel=LIVESTRONG.COM"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 7,
+  "fields": {
+    "name": "Pike Press",
+    "body_part": "Shoulders",
+    "description": "Get into a press-up position with your hands wider than shoulder width apart. Bend at the waist and lift your heels off the floor, keeping your back straight, so your body forms an upside down V-shape. Bend at your elbows to lower your head towards the floor. Then push back explosively to the start position.",
+    "image": "https://www.spotebi.com/wp-content/uploads/2016/03/pike-push-up-exercise-illustration-spotebi.jpg",
+    "video": "https://www.youtube.com/watch?v=sposDXWEB0A&ab_channel=GlobalBodyweightTraining"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 8,
+  "fields": {
+    "name": "Crab Walk",
+    "body_part": "Shoulders",
+    "description": "Sit on the floor with knees bent, feet shoulder-width apart, and palms on the floor behind you with fingers pointing forward. Engage glutes and raise hips off the floor, making a table shape with your body.  Walk forward with left foot and right hand, then with right foot and left hand. Walk forward for the specified number of steps, then reverse the movement and crab walk backward to the starting position.",
+    "image": "https://www.getstrong.fit/images/crabwalk.jpg",
+    "video": "https://www.youtube.com/watch?v=Xwcbm93mM-o&ab_channel=CrossFit%C2%AE"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 9,
+  "fields": {
+    "name": "Push-Back Push-Up",
+    "body_part": "Shoulders",
+    "description": "Start in a push-up position but with feet a bit wider than shoulder width. Brace core and lower your body toward the floor, leading with your chest. Instead of pushing straight up from the floor as you would in a regular push-up, push upper body back toward heels. As upper body goes back, bend legs and let hips rise as upper body comes back to meet them.  Your end position will look like an elevated Child’s Pose. Keep your spine long. Drive through your legs to return to the starting position.",
+    "image": "https://www.getstrong.fit/images/push%20back%20push%20up.jpg",
+    "video": "https://www.youtube.com/watch?v=04p4MWfhpAI&ab_channel=MrWrightFitness"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 10,
+  "fields": {
+    "name": "Plank Up",
+    "body_part": "Shoulders",
+    "description": "Start in a plank position on your elbows (straight line from heels to shoulders). Keeping core tight, place the palm of one hand on the floor and push up, following with the other arm until you’re in a push-up position. Lower yourself back to the elbow plank position, one arm at a time. Up with both arms and down with both arms is 1 rep.",
+    "image": "https://i.pinimg.com/originals/31/b2/e5/31b2e5aeaa1b29d9267c38a5bcb4b2c7.jpg",
+    "video": "https://www.youtube.com/watch?v=L4oFJRDAU4Q&ab_channel=oxygenmagazine"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 11,
+  "fields": {
+    "name": "Hollow Extension To Cannonball",
+    "body_part": "Abs",
+    "description": "Get into a cannonball-type shape on your back, hugging your knees into your chest—yes, just like you’re at the pool at summer camp again. Simultaneously extend your legs and arms outwards into a “hollow” position, pressing your lower back to the floor. Hold for five seconds before curling up again, and complete five reps for one set.",
+    "image": "https://cdn.tennis.com/uploads/wysiwyg/2020/06/19/screen-shot-2020-06-19-at-110005-am.png",
+    "video": "https://www.youtube.com/watch?v=H0lktPotBJo&ab_channel=RachelWolfe"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 12,
+  "fields": {
+    "name": "Bicycle Crunches",
+    "body_part": "Abs",
+    "description": "Lie flat on the floor with your lower back pressed into your mat. Interlace your fingers to create a cradle and place it behind your head. Elbows should be out of your peripheral vision. Float your legs up to a tabletop position, ankles in line with knees. Engage abdominals. Lift your head, so your shoulder blades are hovering off of the ground. Straighten the right leg long while turning the upper body left. Bring your right elbow towards your left knee. Twist at the ribs and lead with your shoulder rather than your elbow. Switch and repeat on the other side. Continue for full rep count.",
+    "image": "https://4.bp.blogspot.com/-0sxnYenrEnM/VvvkDiPGFzI/AAAAAAAAAkg/eHZZ8_fAuGc5lIbAjNAmLp-ojNSY4O4Sg/s1600/The%2BBicycle.jpg",
+    "video": "https://www.youtube.com/watch?v=9FGilxCbdz8&ab_channel=LIVESTRONG.COM"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 13,
+  "fields": {
+    "name": "Mountain Climbers",
+    "body_part": "Abs",
+    "description": "Get into a plank position, making sure to distribute your weight evenly between your hands and your toes. Check your form—your hands should be about shoulder-width apart, back flat, abs engaged, and head in alignment. Pull your right knee into your chest as far as you can. Switch legs, pulling one knee out and bringing the other knee in. Keep your hips down, run your knees in and out as far and as fast as you can. Alternate inhaling and exhaling with each leg change.",
+    "image": "https://www.pngitem.com/pimgs/m/233-2339665_muscle-group-png-mountain-climber-muscles-workout-transparent.png",
+    "video": "https://www.youtube.com/watch?time_continue=10&v=cnyTQDSE884&feature=emb_logo&ab_channel=Well%2BGood"
+  }
+}
+]

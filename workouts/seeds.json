@@ -1,0 +1,81 @@
+[
+{
+  "model": "workouts.workout",
+  "pk": 1,
+  "fields": {
+    "name": "My First Workout",
+    "description": "A mixture of all exercises",
+    "exercises": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      13
+    ]
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 2,
+  "fields": {
+    "name": "Arms Only",
+    "description": "An extreme workout for just Arms only! HARDCORE!!!",
+    "exercises": [
+      5
+    ]
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 3,
+  "fields": {
+    "name": "Legs Day",
+    "description": "Only leg exercises! Hardcore Leg Day!!!",
+    "exercises": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 4,
+  "fields": {
+    "name": "Arms again Only",
+    "description": "An extreme workout for just Arms only! HARDCORE!!!",
+    "exercises": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 5,
+  "fields": {
+    "name": "Abs Abs and Abs",
+    "description": "An extreme workout for just Abs only! HARDCORE!!!",
+    "exercises": [
+      11,
+      12,
+      13
+    ]
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 7,
+  "fields": {
+    "name": "Abs Abs and Abs",
+    "description": "An extreme workout for just Abs only! HARDCORE!!!",
+    "exercises": [
+      11,
+      12,
+      13
+    ]
+  }
+}
+]

@@ -1,0 +1,132 @@
+[
+{
+  "model": "todoitems.todoitem",
+  "pk": 11,
+  "fields": {
+    "text": "This is a new Todo after permissions",
+    "category": "General",
+    "created_at": "2020-09-14T17:54:16.882Z",
+    "owner": 2
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 12,
+  "fields": {
+    "text": "This is a new Todo after permissions",
+    "category": "General",
+    "created_at": "2020-09-14T18:04:27.421Z",
+    "owner": 2
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 44,
+  "fields": {
+    "text": "Get to the Chopper!!",
+    "category": "General",
+    "created_at": "2020-09-17T09:53:26.812Z",
+    "owner": 23
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 45,
+  "fields": {
+    "text": "Get to the Chopper Noooooww!",
+    "category": "General",
+    "created_at": "2020-09-17T09:53:42.049Z",
+    "owner": 23
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 46,
+  "fields": {
+    "text": "Hasta la vista babbby",
+    "category": "General",
+    "created_at": "2020-09-17T09:53:55.267Z",
+    "owner": 23
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 48,
+  "fields": {
+    "text": "Attend Charity Event in Shanghai",
+    "category": "General",
+    "created_at": "2020-09-18T08:18:03.280Z",
+    "owner": 3
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 49,
+  "fields": {
+    "text": "Filming Rush Hour 4",
+    "category": "General",
+    "created_at": "2020-09-18T08:18:14.906Z",
+    "owner": 3
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 50,
+  "fields": {
+    "text": "Lunch with Donald Trump",
+    "category": "General",
+    "created_at": "2020-09-18T08:18:27.722Z",
+    "owner": 3
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 51,
+  "fields": {
+    "text": "Annoy neighbours with my Singing practice",
+    "category": "General",
+    "created_at": "2020-09-18T08:19:44.175Z",
+    "owner": 3
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 52,
+  "fields": {
+    "text": "Scold my son",
+    "category": "General",
+    "created_at": "2020-09-18T08:19:50.604Z",
+    "owner": 3
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 53,
+  "fields": {
+    "text": "Abs Abs and Abs",
+    "category": "General",
+    "created_at": "2020-09-18T08:34:00.730Z",
+    "owner": 23
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 57,
+  "fields": {
+    "text": "Legs Day",
+    "category": "General",
+    "created_at": "2020-09-18T08:53:02.814Z",
+    "owner": 23
+  }
+},
+{
+  "model": "todoitems.todoitem",
+  "pk": 63,
+  "fields": {
+    "text": "Legs Day",
+    "category": "General",
+    "created_at": "2020-09-18T16:13:47.345Z",
+    "owner": 3
+  }
+}
+]
