@@ -65,7 +65,7 @@ This application uses external APIs, in order to enjoy the full experience of th
 
 - Figma for initial wireframe,
 
-    ![Figma screenshot](/ReadmeResources/Figma)
+    ![Figma screenshot](/ReadmeResources/Figma.png)
 
 - Trello for task planning and tracking,
 
@@ -77,7 +77,7 @@ This application uses external APIs, in order to enjoy the full experience of th
 
 - RESTful Routes for Back-end,
 
-    ![Insomnia screenshot](/ReadmeResources/Insomnia)
+    ![Insomnia screenshot](/ReadmeResources/Insomnia.png)
 
 - Researched and finalised the main frameworks and libraries to use,
 
