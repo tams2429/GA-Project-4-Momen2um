@@ -73,7 +73,7 @@ This application uses external APIs, in order to enjoy the full experience of th
 
 - ERD (Entity Relationship Diagram) for database planning,
 
-    ![ERD Diagram](/ReadmeResources/ERD_v4.png)
+    ![ERD Diagram](/ReadmeResources/ERD.png)
 
 - RESTful Routes for Back-end,
 
