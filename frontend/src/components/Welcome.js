@@ -25,9 +25,13 @@ class Welcome extends React.Component {
     }
   }
 
+  // handleGetProgrammingQuote = async() => {
+  //   const quote = await getProgrammingQuote()
+  //   this.setState( { quote: quote.data.en } )
+  // }
   handleGetProgrammingQuote = async() => {
     const quote = await getProgrammingQuote()
-    this.setState( { quote: quote.data.en } )
+    this.setState( { quote: obj['en'] } )
   }
 
   render() {

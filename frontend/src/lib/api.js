@@ -83,9 +83,29 @@ export const getWorldNews = () => {
 }
 
 //* Programming Quotes API requests
+// export const getProgrammingQuote = () => {
+//   return axios.get('https://cors-anywhere.herokuapp.com/https://programming-quotes-api.herokuapp.com/quotes/random')
+// }
 export const getProgrammingQuote = () => {
-  return axios.get('https://cors-anywhere.herokuapp.com/https://programming-quotes-api.herokuapp.com/quotes/random')
+  let obj = axios.get('https://raw.githubusercontent.com/skolakoda/programming-quotes-api/master/backup/quotes.json')
+  return (
+    obj[Math.floor(Math.random() * (json.length + 1))]
+  )
 }
+
+// async function getQuote() {
+//   const url =
+//     "https://raw.githubusercontent.com/skolakoda/programming-quotes-api/master/backup/quotes.json";
+//   let response = await fetch(url);
+//   let json = await response.json();
+
+//   json = json[Math.floor(Math.random() * (json.length + 1))];
+
+//   return {
+//     text: json["en"],
+//     author: json["author"]
+//   };
+// }
 
 //* Unsplash API requests
 export const getRandomImage = () => {
