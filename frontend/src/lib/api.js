@@ -84,7 +84,7 @@ export const getWorldNews = () => {
 
 //* Programming Quotes API requests
 export const getProgrammingQuote = () => {
-  return axios.get('https://programming-quotes-api.herokuapp.com/quotes/random')
+  return axios.get('https://cors-anywhere.herokuapp.com/https://programming-quotes-api.herokuapp.com/quotes/random')
 }
 
 //* Unsplash API requests
